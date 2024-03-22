@@ -1,0 +1,66 @@
+/* Emma's CSS File */
+
+@font-face {font-family:'OpenDyslexic-Regular';
+src: url(OpenDyslexic-Regular.otf);
+font-weight: normal;
+font-style: normal;}
+
+
+body  { 
+	font-family: 'OpenDyslexic-Regular', 'times new roman', serif;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background: white url(images/bookshelf.png) ;
+	}
+
+h1, h2, h3 { font-family: verdana, times new roman ;
+		font-weight: normal ; }
+
+h1 { font-size: 160% ; }
+
+h2 { font-size: 130% ; }
+
+h3 { font-size: 115% ; }
+
+p, h1, h2, h3, ol, ul { margin-top: 0; margin-bottom: 1px; }
+
+ol { padding-left: 0; margin-left: 30px; }
+
+img {padding: 4px; border:
+	 1px solid black;
+	 background-color: white ; }
+
+a { color: #9a07ff; 
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid #898989;
+	padding-bottom: 1px; }
+
+a:visited {color: #4a2885; }
+
+a:hover, a:focus, a:active {background-color: #f03007;
+				color: #ffec02;
+				border-bottom-color: #fdebcf; }
+
+div#wrapper { width:728px; 
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: #9a07ff;
+		background-image: url(images/bookshelfborder.png) ;
+		background-repeat: repeat-y ;
+		background-position: left top;
+		background-attachment: scroll;
+		border: 2px dotted black; }
+
+header { height: 280px;
+	margin-bottom: 20px; }
+
+header h1, header p { text-indent: -99999999px; }
+
+.home header { background: white url(images/emmasfavouritebooks.png) no-repeat; }
+
+
